@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/afriworld-react/static/css/main.6d76b2f0.css",
+    "main.js": "/afriworld-react/static/js/main.d6f71176.js",
+    "static/media/tudose-madalin-BS6hKOx02ig-unsplash.jpg": "/afriworld-react/static/media/tudose-madalin-BS6hKOx02ig-unsplash.9dee1005a43347bf805b.jpg",
+    "static/media/engin-akyurt-35NAaB_Nmx8-unsplash.jpg": "/afriworld-react/static/media/engin-akyurt-35NAaB_Nmx8-unsplash.6b736d5e7a619b8a3a1a.jpg",
+    "static/media/paul-siewert-dnpa8k6TGRE-unsplash.jpg": "/afriworld-react/static/media/paul-siewert-dnpa8k6TGRE-unsplash.0c069b9b33d3290edc4c.jpg",
+    "static/media/valeriia-kogan-KBoUUqE97r8-unsplash.jpg": "/afriworld-react/static/media/valeriia-kogan-KBoUUqE97r8-unsplash.3fee4e5ee717066d44a9.jpg",
+    "static/media/irena-carpaccio-02-4hd_RzjI-unsplash.jpg": "/afriworld-react/static/media/irena-carpaccio-02-4hd_RzjI-unsplash.1f782abbbc202b8149b8.jpg",
+    "index.html": "/afriworld-react/index.html",
+    "main.6d76b2f0.css.map": "/afriworld-react/static/css/main.6d76b2f0.css.map",
+    "main.d6f71176.js.map": "/afriworld-react/static/js/main.d6f71176.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d76b2f0.css",
+    "static/js/main.d6f71176.js"
+  ]
+}
