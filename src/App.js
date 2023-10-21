@@ -29,12 +29,12 @@ function App() {
       <BrowserRouter>
       <Navbar/>
       <ScrollToTop />
-      <Routes>
+      //<Routes>
         <Route path="/" element={<Home />} />
         <Route path="item/:itemId" element={<ItemDetails />} />
         <Route path="checkout" element={<Checkout />} />
         <Route path="checkout/success" element={<Confirmation />} />
-      </Routes>
+     // </Routes>
       <CartMenu />
       <Footer />
       </BrowserRouter>
