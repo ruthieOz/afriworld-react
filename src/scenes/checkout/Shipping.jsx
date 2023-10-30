@@ -27,10 +27,29 @@ const Shipping = ({
             </Box>
 
             <Box mb="20px">
-                <FormControlLabel
+                <FormControlLabel 
+                label="Same for Shipping Address"
+                control={
+                    <Checkbox 
+                    defaultChecked
+                    value={values.shippingAddress.isSameAddress}
+                    onChange={() =>
+                        setFieldValue(
+                            "shippingAddress.isSameAddress",
+                            !values.shippingAddress.isSameAddress
+                        )
+                    }
+                    />
+                }
+                />
             </Box>
+
+            {/* SHIPPING FORM */}
+            {!values.shippingAddress.isSameAddress && (
+                <Box></Box>
+            )}
         </Box>
-    )
+    );
 };
 
 export default Shipping;
