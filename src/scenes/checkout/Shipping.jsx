@@ -11,14 +11,14 @@ const Shipping = ({
 }) => {
     return (
         <Box m="30px auto">
-            {/** BILLING FORM */}
+            {/* BILLING FORM */}
             <Box>
                 <Typography sx={{ mb: "15px" }} fontSize="18px">
                     Billing Information
                 </Typography>
                 <AddressForm
                 type="billingAddress"
-                value={values.billingAddress}
+                values={values.billingAddress}
                 errors={errors}
                 touched={touched}
                 handleBlur={handleBlur}
@@ -46,7 +46,19 @@ const Shipping = ({
 
             {/* SHIPPING FORM */}
             {!values.shippingAddress.isSameAddress && (
-                <Box></Box>
+                <Box>
+                    <Typography sx={{ mb: "15px" }}>
+                        Shipping Information
+                    </Typography>
+                    <AddressForm
+                    type="shippingAddress"
+                    values={values.shippingAddress}
+                    errors={errors}
+                    touched={touched}
+                    handleBlur={handleBlur}
+                    handleChange={handleChange}
+                    />
+                </Box>
             )}
         </Box>
     );
